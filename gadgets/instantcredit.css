@@ -1,0 +1,294 @@
+/******************************************************
+*	Instant Credit
+*
+*******************************************************/
+
+.clear:after {content: ".";display: block;clear: both;height: 0px;margin-top: -1px;visibility: hidden;}
+.new-approved-prescreen-container {margin:32px 0 0 36px;}
+.new-approved-prescreen-container div.title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:26px;line-height:20px;width:637px;margin-bottom:10px;}
+.new-approved-prescreen-container div.sub-title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18px;line-height:20px;width:637px;margin-bottom:15px;}
+.new-approved-prescreen-container .tiles {list-style-type:none;margin:0;overflow: hidden;padding: 0;width: 637px;}
+.new-approved-prescreen-container .tiles li.left {box-sizing: border-box;float: left;margin: 0;}
+.new-approved-prescreen-container .tiles li.right {box-sizing: border-box;float: left;height: 96px;margin: 0 0 0 20px;}
+.new-approved-prescreen-container .tiles img {max-width: 100%;vertical-align: bottom;}
+.new-approved-prescreen-container p.benefits {margin:24px 0 0 3px;padding:0;color:#5f6062;font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;}
+.new-approved-prescreen-container .offers {list-style-type: none;color:#5f6062;font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;margin:0;padding:0 0 0 12px;}
+.new-approved-prescreen-container .offers li {line-height:17px;margin:0 0 0 4px;background: url("/static/img/customer-service/li.png") no-repeat scroll 0 7px transparent;padding: 0 0 3px 10px;}
+.new-approved-prescreen-container .offers li div {font-size:11px;font-weight:bold;}
+
+.new-approved-prescreen-container .buttons {float:left;display:inline;margin:8px 0 16px 0;width:637px;}
+.new-approved-prescreen-container .buttons .acceptButton {float:left;display:inline;}
+.new-approved-prescreen-container .buttons .declineButton {float:left;display:inline;margin:0 0 0 20px;}
+.new-approved-prescreen-container .buttons .acceptButton .button {width:181px;height:40px;cursor:pointer;}
+.new-approved-prescreen-container .buttons .declineButton .button {width:176px;height:40px;cursor:pointer;}
+
+.new-approved-prescreen-container hr.line {border:0;height:1px;background:#a7a7a7;width:620px;margin:8px 0 0 0;}
+.new-approved-prescreen-container .program {margin:18px 0 0 0;width:637px;}
+.new-approved-prescreen-container .program #terms {margin-bottom:4px;}
+.new-approved-prescreen-container .program .terms {font-family:"Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;color:#5f6062;margin:0;line-height:16px;}
+.new-approved-prescreen-container .bound {border:1px solid #a7a7a7;width:637px;margin:10px 0 0 0;}
+.new-approved-prescreen-container .bound p {color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:bold;font-style:italic;line-height:16px;margin:6px 6px 6px 10px;}
+.new-approved-prescreen-container .bound p a.terms {color:#1c78b3 !important;text-decoration:none !important;}
+.new-approved-prescreen-container .bound p a.terms:hover {color:#1c78b3 !important;text-decoration:underline !important;}
+
+.accept-prescreen-form-container {margin:32px 36px 32px 36px;font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#5f6062;}
+.accept-prescreen-form-container form {height:auto;}
+.accept-prescreen-form-container form input:focus,select:focus,textarea:focus {box-shadow:inset 1px 1px 0 #5f6062,inset -1px -1px 0 #5f6062;}
+.accept-prescreen-form-container #fieldDOB-error {height:0px !important;}
+.accept-prescreen-form-container #fieldSSN-error {height:0px !important;}
+.accept-prescreen-form-container #confirmFieldSSN-error {height:0px !important;}
+.accept-prescreen-form-container #checkbox-error {display:none !important;}
+.accept-prescreen-form-container .tiles {list-style-type:none;margin:0;overflow: hidden;padding: 0;width: 637px;}
+.accept-prescreen-form-container .tiles .left .title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;margin:0 0 20px 0;}
+.accept-prescreen-form-container .tiles .left .uppercase {text-transform:uppercase;}
+.accept-prescreen-form-container .tiles .lastname {margin:0 0 0 6px;}
+.accept-prescreen-form-container .tiles .marginTop {margin:30px 0 2px 0;}
+.accept-prescreen-form-container .tiles .initialdisplay {display:block;color:#5f6062;}
+.accept-prescreen-form-container .tiles .editdisplay {display:none;}
+.accept-prescreen-form-container .tiles .edit {margin:0 0 0 15px;}
+.accept-prescreen-form-container .tiles a.info {color:#1c78b3 !important;text-decoration:none !important;}
+.accept-prescreen-form-container .tiles a.info:hover {text-decoration:underline !important;}
+.accept-prescreen-form-container .aero {position:absolute;top:50px;left:79px;display:block;}
+.accept-prescreen-form-container div.indented {margin:40px 0 0 0;background-color:#f2f2f2;border:1px solid #5f6062;padding:20px;}
+.accept-prescreen-form-container div.indented .form-hint {margin-left:10px;font-family:Helvetica,Arial,sans-serif;font-size:1.04em;}
+.accept-prescreen-form-container div.indented input.pw {-webkit-text-security: disc;text-security:disc;-moz-text-security:disc;appearance:disc;}
+.accept-prescreen-form-container div.indented .dob-wrapper {margin:0 0 6px 0;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dobTooltip {height: 48px;margin-left: 188px;margin-top: -40px;position: relative;width: 236px;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dobTooltip p {background-color: #5f6062;color: #fff;left:-6px;padding:8px;position:absolute;top:-6px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-tooltip {height: 48px;margin-left: 188px;margin-top: -40px;position: relative;width: 236px;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-tooltip p {background-color: #5f6062;color: #fff;left:-6px;padding:8px;position:absolute;top:-12px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dobTooltip img {left:-14px;position:absolute;top:9px;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-tooltip img {left:-14px;position:absolute;top:7px;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dob-alpha-characters {height:52px;margin-left:175px;margin-top:-42px;position:relative;width:260px;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dob-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-16px;width:260px;height:45px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .dob-wrapper .error-dob-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.accept-prescreen-form-container div.indented .ssn-wrapper {margin:0 0 6px 0;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssnTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssnTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-16px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssn-minTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssn-minTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssn-alpha-characters {height:52px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssn-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-11px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .error-ssn-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.accept-prescreen-form-container div.indented .ssn-wrapper .fieldSSN-error {display:none;}
+.accept-prescreen-form-container div.indented .confirm-wrapper {margin:0 0 6px 0;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirmTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirmTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirm-match-Tooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirm-match-Tooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-12px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirm-alpha-characters {height:52px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirm-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-11px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container div.indented .confirm-wrapper .error-confirm-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.accept-prescreen-form-container div.indented .required {font-family:Verdana,Arial,sans-serif;font-size:1.04em;}
+.accept-prescreen-form-container div.indented .required div.star {font-size:18px;float:left;display:inline;margin-right:2px;}
+.accept-prescreen-form-container .bound {border:1px solid #a7a7a7;width:667px;height:434px;line-height:16px;overflow:scroll;padding:12px 0 0 0;overflow-x:hidden;margin-top:20px;}
+.accept-prescreen-form-container iframe#content body {padding-left:0 !important;}
+#instantCreditHolder {float:right;}
+
+.accept-prescreen-form-container div p.uppercase {text-transform:uppercase;font-family:Helvetica,Arial,sans-serif;font-size:13px;}
+.accept-prescreen-form-container div label {float:left;width:600px;height:26px;font-family:Helvetica,Arial,sans-serif;font-size:1.04em;}
+.accept-prescreen-form-container div label span {font-size:18px;}
+.accept-prescreen-form-container div input {width:176px;height:32px;text-align:center;letter-spacing:1px;}
+.accept-prescreen-form-container div input:focus,select:focus,textarea:focus {box-shadow:inset 1px 1px 0 #5f6062,inset -1px -1px 0 #5f6062;border:solid 1px #5f6062;}
+:-moz-ui-invalid,:invalid,:-moz-submit-invalid {box-shadow: none;}
+
+.accept-prescreen-form-container li.editdisplay div input {width:250px;height:32px;text-align:left;margin-bottom:5px;padding:2px;}
+.accept-prescreen-form-container li.editdisplay div input#middleinitial {width:10px;}
+.accept-prescreen-form-container li.editdisplay .firstname-wrapper {margin-top:15px;}
+.accept-prescreen-form-container li.editdisplay .required div.star {font-size:18px;float:left;display:inline;}
+
+.accept-prescreen-form-container li.editdisplay .firstname-wrapper .error-tooltip-fname {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .firstname-wrapper .error-tooltip-fname p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .lastname-wrapper .error-tooltip-lname {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .lastname-wrapper .error-tooltip-lname p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .address1-wrapper .error-tooltip-address1 {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .address1-wrapper .error-tooltip-address1 p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .city-wrapper .error-tooltip-city {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .city-wrapper .error-tooltip-city p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .state-wrapper .error-tooltip-state {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .state-wrapper .error-tooltip-state p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .code-wrapper .error-tooltip-pcode {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .code-wrapper .error-tooltip-pcode p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position:absolute;top:-17px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .code-wrapper .error-zipcode-alpha-characters {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.accept-prescreen-form-container li.editdisplay .code-wrapper .error-zipcode-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-17px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .code-wrapper .error-zipcode-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.accept-prescreen-form-container li.editdisplay .phone-wrapper .error-tooltip-phone {height:48px;margin-left:241px;margin-top:-40px;position:relative;width:236px;}
+.accept-prescreen-form-container li.editdisplay .phone-wrapper .error-tooltip-phone p {background-color:#5f6062;color:#fff;left:8px;padding:8px;position:absolute;top:-9px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .phone-wrapper .error-phone-alpha-characters {height:52px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.accept-prescreen-form-container li.editdisplay .phone-wrapper .error-phone-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-17px;width:260px;font-weight:normal !important;}
+.accept-prescreen-form-container li.editdisplay .phone-wrapper .error-phone-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+
+.accept-prescreen-form-container .disclaimer {margin:40px 0 0 0;}
+.accept-prescreen-form-container .disclaimer p {width:637px;line-height:16px;}
+.accept-prescreen-form-container .disclaimer p a {color:#1c78b3 !important;text-decoration:none !important;}
+.accept-prescreen-form-container .disclaimer p a:hover {text-decoration:underline !important;}
+.accept-prescreen-form-container input#agree {margin-left:-1px;}
+.accept-prescreen-form-container .error-checkboxTooltip {height:48px;margin-left:9px;margin-top:-45px;position:relative;width:236px;}
+.accept-prescreen-form-container .error-checkboxTooltip img {position:absolute;top:21px;left:1px;}
+.accept-prescreen-form-container .error-checkboxTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-12px;width:228px;font-weight:normal !important;}
+.accept-prescreen-form-container .buttons {float:left;display:inline;margin:40px 0 50px 0;width:637px;}
+.accept-prescreen-form-container .buttons .acceptButton {float:left;display:inline;}
+.accept-prescreen-form-container .buttons .declineButton {float:left;display:inline;}
+.accept-prescreen-form-container .acceptButton .disabled {cursor:default;width:176px;height:40px;margin:0 20px 0 0;}
+.accept-prescreen-form-container .acceptButton .button {cursor:pointer;width:176px;height:40px;margin:0 20px 0 0;}
+.accept-prescreen-form-container .declineButton .button {width:176px;height:40px;cursor:pointer;}
+.accept-prescreen-form-container #sign {font-size: 11px;margin-left: 26px;margin-top: -17px;width: 627px;}
+.accept-prescreen-form-container .error {border:solid 1px #bac869;}
+
+.final-card-approval-container {margin:32px 36px 32px 36px;}
+.final-card-approval-container .tiles {list-style-type:none;margin:0;overflow: hidden;padding: 0;width: 637px;}
+.final-card-approval-container .tiles .left .title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:bold;margin:0 0 3px 0;}
+.final-card-approval-container .tiles .left .sub-title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18px;line-height:20px;width:637px;margin-bottom:15px;}
+.final-card-approval-container .tiles .left.credit-limit {width:600px;height:107px;background-color:#ebebeb;padding:20px 50px 20px 20px;margin-top:20px;}
+.final-card-approval-container .tiles .left.credit-limit .cc-image {float:left;display:inline-block;}
+.final-card-approval-container .tiles .left.credit-limit .approval-copy .title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18px;line-height:20px;margin:20px 0 0 196px;width:350px;}
+.final-card-approval-container .tiles .left.credit-limit .approval-copy .message {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:14px;line-height:20px;margin:18px 0 0 196px;width:385px;}
+.final-card-approval-container .tiles .left.credit-limit .approval-copy .message span.star {font-size:18px}
+.final-card-approval-container .tiles .left.card-arrival p {font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:bold;color:#5f6062;}
+.final-card-approval-container .buttons {float:left;display:inline;margin:16px 0 30px 0;width:600px;}
+.final-card-approval-container .buttons .continueButton {float:left;display:inline-block;}
+.final-card-approval-container .buttons .continueButton .button {width:176px;height:40px;cursor:pointer;}
+.final-card-approval-container p.complete {font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;color:#5f6062;}
+.final-card-approval-container hr.line {border:0;height:1px;background:#a7a7a7;width:600px;margin:0;}
+
+.final-card-review-container {margin:32px 36px 32px 36px;}
+.final-card-review-container .tiles {list-style-type:none;margin:0;overflow: hidden;padding: 0;width: 625px;}
+.final-card-review-container .tiles .left .title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18px;line-height:20px;width:625px;margin-bottom:15px;}
+.final-card-review-container .tiles .left.credit-limit {width:600px;height:107px;background-color:#ebebeb;padding:20px 50px 20px 20px;margin-top:20px;}
+.final-card-review-container .tiles .left.credit-limit .cc-image {float:left;display:block;}
+.final-card-review-container .tiles .left.credit-limit .delay-copy {float:left;display:block;width:420px;}
+.final-card-review-container .tiles .left.credit-limit .delay-copy .message {color:#5f6062;font-family:"Lucida Sans Unicode",Arial,Helvetica,sans-serif;font-weight:bold;font-size:11.2px;line-height:16px;margin:22px 0 0 20px;width:400px;}
+.final-card-review-container .buttons {float:left;display:inline;margin:30px 0 30px 0;width:600px;}
+.final-card-review-container .buttons .continueButton {float:left;display:inline-block;}
+.final-card-review-container .buttons .continueButton .button {width:176px;height:40px;cursor:pointer;}
+
+.card-number-search-form-container {margin:32px 36px 32px 36px;font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:11.5px;font-weight:bold;color:#5f6062;}
+.card-number-search-form-container .tiles {list-style-type:none;margin:0;overflow: hidden;padding: 0;width: 625px;}
+.card-number-search-form-container #exception {position:absolute;top:75px;left:44px;width:600px;}
+.card-number-search-form-container .tiles li {}
+.card-number-search-form-container .tiles li.left.para {margin:20px 0 20px 0;}
+.card-number-search-form-container .tiles li.left.labels {margin-bottom:4px;}
+.card-number-search-form-container .tiles li.left.field {margin-bottom:5px;}
+.card-number-search-form-container .tiles li.left.required {margin:10px 0 20px 0;}
+.card-number-search-form-container .tiles li.left.required span.star {font-size:18px;}
+.card-number-search-form-container .tiles .left .title {color:#5f6062;font-family:Helvetica,Arial,sans-serif;text-transform:capitalize;font-size:18px;line-height:20px;width:625px;margin-bottom:15px;}
+.card-number-search-form-container .tiles .left p.filloutfields {color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;line-height:16px;}
+.card-number-search-form-container .dob-wrapper {margin:0 0 6px 0;height:65px;}
+.card-number-search-form-container .dob-wrapper .label span {font-size:18px;}
+.card-number-search-form-container .dob-wrapper .error-dobTooltip,
+.card-number-search-form-container .dob-wrapper .error-tooltip {height: 48px;margin-left:188px;margin-top: -58px;position: relative;width: 236px;}
+.card-number-search-form-container .dob-wrapper .error-dobTooltip p,
+.card-number-search-form-container .dob-wrapper .error-tooltip p {background-color: #5f6062;color: #fff;left:-6px;padding:7px;position: absolute;top: -7px;width: 228px;font-weight:normal !important;}
+.card-number-search-form-container .dob-wrapper .error-dobTooltip img,
+.card-number-search-form-container .dob-wrapper .error-tooltip img {left:-14px;position:absolute;top:7px;}
+.card-number-search-form-container .dob-wrapper div.mdy {color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;line-height:16px;}
+.card-number-search-form-container .ssn-wrapper {margin:0 0 6px 0;height:65px;}
+.card-number-search-form-container .ssn-wrapper .label span {font-size:18px;}
+.card-number-search-form-container .ssn-wrapper .error-ssnTooltip {height:48px;margin-left:175px;margin-top:-44px;position:relative;width:310px;}
+.card-number-search-form-container .ssn-wrapper .error-ssnTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:310px;font-weight:normal !important;}
+.card-number-search-form-container .ssn-wrapper .error-ssn-minTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.card-number-search-form-container .ssn-wrapper .error-ssn-minTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:228px;font-weight:normal !important;}
+.card-number-search-form-container .ssn-wrapper .error-ssn-alpha-characters {height:52px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.card-number-search-form-container .ssn-wrapper .error-ssn-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-20px;width:260px;font-weight:normal !important;}
+.card-number-search-form-container .ssn-wrapper .error-ssn-alpha-characters p span {color:#f08b1d;}
+.card-number-search-form-container .ssn-wrapper .fieldSSN-error {display:none;}
+.card-number-search-form-container .postalcode-wrapper {margin:0 0 6px 0;height:65px;}
+.card-number-search-form-container .postalcode-wrapper .label span {font-size:18px;}
+.card-number-search-form-container .postalcode-wrapper .error-zipTooltip {height:48px;margin-left:175px;margin-top:-44px;position:relative;width:236px;}
+.card-number-search-form-container .postalcode-wrapper .error-zipTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:228px;font-weight:normal !important;}
+.card-number-search-form-container .postalcode-wrapper .error-zip-minTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.card-number-search-form-container .postalcode-wrapper .error-zip-minTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-12px;width:228px;font-weight:normal !important;}
+.card-number-search-form-container .postalcode-wrapper .error-postal-alpha-characters {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:260px;}
+.card-number-search-form-container .postalcode-wrapper .error-postal-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-17px;width:260px;font-weight:normal !important;}
+.card-number-search-form-container .postalcode-wrapper .error-postal-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.card-number-search-form-container .dob-wrapper .error-dob-alpha-characters {height:52px;margin-left:175px;margin-top:-51px;position:relative;width:260px;}
+.card-number-search-form-container .dob-wrapper .error-dob-alpha-characters p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-22px;width:260px;height:46px;font-weight:normal !important;}
+.card-number-search-form-container .dob-wrapper .error-dob-alpha-characters p span {color:#f08b1d;font-weight:bold !important;}
+.card-number-search-form-container div p.uppercase {text-transform:uppercase;}
+.card-number-search-form-container div label {float:left;width:600px;height:26px;}
+.card-number-search-form-container div input {width:176px;height:32px;text-align:center;letter-spacing:1px;margin-bottom:5px;}
+:-moz-ui-invalid,:invalid,:-moz-submit-invalid {box-shadow: none;}
+
+.card-number-search-form-container .label {color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;line-height:16px;}
+.card-number-search-form-container .label span {font-size:18px;}
+.card-number-search-form-container input {width:176px;height:32px;text-align:center;letter-spacing:2px;}
+.card-number-search-form-container span {color:#5f6062;font-family:"Lucida Sans Unicode",Arial,Helvetica,sans-serif;font-weight:bold;font-size:11.5px;line-height:16px;}
+.card-number-search-form-container .buttons {float:left;display:inline;margin:0 0 50px 0;width:637px;}
+.card-number-search-form-container .buttons .acceptButton {float:left;display:inline;}
+.card-number-search-form-container .buttons .acceptButton .button {cursor:pointer;width:176px;height:40px;margin:0 22px 0 0;}
+.card-number-search-form-container .error-ssnTooltip {height:48px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.card-number-search-form-container .error-ssnTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-17px;width:228px;}
+.card-number-search-form-container .error-ssn-minTooltip {height:52px;margin-left:175px;margin-top:-40px;position:relative;width:236px;}
+.card-number-search-form-container .error-ssn-minTooltip p {background-color:#5f6062;color:#fff;left:8px;padding:7px;position: absolute;top:-13px;width:228px;}
+.card-number-search-form-container .error {border:solid 1px #bac869;}
+.card-number-search-form-container .required span {color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;}
+.card-number-search-form-container .required div.star {font-size:18px;float:left;display:inline;margin-right:2px;}
+.card-number-search-form-container .required {margin:20px 0 20px 0;color:#5f6062;font-family:Helvetica,Arial,sans-serif;font-weight:bold;font-size:12px;float:left;display:inline;}
+
+.credit-card-discount-container {margin:32px 36px 32px 36px;}
+.credit-card-discount-container .title {color:#5f6062;font-family:Arial,Helvetica,sans-serif;font-weight:bold;font-size:18px;line-height:20px;width:625px;margin-bottom:15px;}
+.credit-card-discount-container p.exception {color:#5f6062;font-family:"Lucida Sans Unicode",Arial,Helvetica,sans-serif;font-weight:bold;font-size:12px;line-height:16px;margin-bottom:28px;margin-top:18px;}
+.credit-card-discount-container p.explaination {color:#5f6062;font-family:"Lucida Sans Unicode",Arial,Helvetica,sans-serif;font-weight:bold;font-size:12px;line-height:16px;}
+.credit-card-discount-container p.explaination span.eighteen {font-size:18px;}
+
+
+::-webkit-validation-bubble {font-weight: 200;}
+::-webkit-validation-bubble-arrow {border:1px solid #E6C700;background: #FAF1B4;margin-bottom:6px;padding: 2px;}
+::-webkit-validation-bubble-message {border: 1px solid #E6C700;background: #FAF1B4;padding: 0.5em 1em;margin-top: 3px;}
+
+#overlay {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: #000;opacity: 0.5;filter: alpha(opacity=50);}
+#modal {
+    position:absolute;
+    top: 300px;
+	left: 245px;
+    border-radius:14px;
+    padding:8px;
+    width: 150px;
+	height: 50px;
+}
+
+#content {
+    border-radius: 8px;
+	background: #fff;
+	padding:9px 20px 20px 20px;
+	width: 150px;
+	height: 65px;
+	text-align:center;
+}
+#close {
+    position:absolute;
+    background:url(close.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+}
+.exceptions {}
+.response-bg {
+    margin-left: 173px;
+    background: #FDFAD7;
+}
+.response-error {
+    margin: 20px 0;
+    padding: 1em 40px;
+    background: #FDFAD7 url(/static/img/error-icon.png) no-repeat 13px 1.4em;
+}
+.response-error a:hover,
+.response-error a:focus {
+    text-decoration: underline;
+}
+
+.response-icon {
+    float:left;
+    padding:10px 5px 10px 10px;
+}
+.response-text,
+.base-modal p.response-text,
+#wsFormHolder p.response-text {
+    padding:7px 0 0 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Unicode', 'Lucida Grande', Verdana, sans-serif;
+    font-weight:normal;
+    font-size:13px;
+}
